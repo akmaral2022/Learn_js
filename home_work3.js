@@ -4,7 +4,7 @@ var arrayNumbs = [123, 234, 256, 345, 457, 543, 67, 55, 23, 28, 50].map(function
     return arrayNumbs.toString()
 }
 )
-console.log(arrayNumbs)
+//console.log(arrayNumbs)
 var newArray = []
 for (i = 0; i < arrayNumbs.length; i++) {
     if (arrayNumbs[i][0] === '2' || arrayNumbs[i][0] === '5') {
@@ -34,7 +34,7 @@ getDataType(2)
 let arrayOfTags = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1', 'div', 'div', 'li', 'h1', 'p', 'h1', 'ol', 'br']
 let objectOfTags = {}
 
-console.log(arrayOfTags)
+//console.log(arrayOfTags)
 
 for (tag of arrayOfTags) {
     if (objectOfTags[tag]) {
