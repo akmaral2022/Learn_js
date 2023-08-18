@@ -33,9 +33,6 @@ getDataType(2)
 
 let arrayOfTags = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1', 'div', 'div', 'li', 'h1', 'p', 'h1', 'ol', 'br']
 let objectOfTags = {}
-
-//console.log(arrayOfTags)
-
 for (tag of arrayOfTags) {
     if (objectOfTags[tag]) {
         objectOfTags[tag] += 1
