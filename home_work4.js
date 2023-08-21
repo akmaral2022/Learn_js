@@ -25,12 +25,6 @@ average([1, 2, 3, 4, 4])
 let arrayToTr = ['name', 'John', 'lastname', 'Black', 'age', '23']
 let objecToTr = {}
 
-// for (i = 0; i < arrayToTr.length; i++) {
-//     if (arrayToTr[i] === 'name') {
-
-//     }
-// }
-
 
 /*Дан список с разными типами данных, Например : [null, 123, undefined, null, "qwerty", 34, 65, undefined, null, null, 43, "aerg", "пкцйк», null, ‘uioo’]. 
 Вам надо одинаковые типы данных объединить в отдельный массив. То есть в конечном результате у вас будет несколько массивов c одинаковыми типами данных внутри. 
