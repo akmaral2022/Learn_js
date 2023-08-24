@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(162, 216, 236);
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid teal;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+
+}
+
+#create_button {
+    width: 240px;
+    height: 40px;
+    border: none;
+    box-shadow: 3px 1px 5px #212121;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #044f95;
+    color: #fff;
+    font-size: 22px;
+}
+
+#todo_list {
+    margin: auto;
+    width: 750px;
+}
+
+.block_text {
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(5, 16, 16);
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+h3 {
+    font-style: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.div_button {
+    display: flex;
+    width: 320px;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
+.deleteButton {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(192, 4, 4);
+    box-shadow: 3px 1px 5px rgb(51, 5, 5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editButton {
+    width: 150px;
+    height: 40px;
+    background-color: #26b40a;
+    box-shadow: 3px 1px 5px #0f4d03;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -21,6 +21,7 @@ let input1 = document.getElementById('1')
 let input2 = document.getElementById('2')
 let calculate__result = document.querySelector('.calculate__result')
 document.querySelector('.sum').onclick = () => {
+    (parseInt(input1.value) + parseInt(input2.value))
     calculate__result.innerHTML = ('Результат: ' + (parseInt(input1.value) + parseInt(input2.value)))
 
 }
@@ -58,7 +59,7 @@ var newText = document.createElement('h1')
 newText.setAttribute('class', 'text')
 accept__value.append(newText)
 
-// закоментированный текст тоже работает
+// закоментированный код тоже работает
 
 
 

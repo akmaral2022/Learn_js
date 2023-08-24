@@ -24,17 +24,23 @@ average([1, 2, 3, 4, 4])
 Из этого массива нужно получить объект, где ключом будет name, а значение John и так с остальными данными. Все нужно сделать через цикл конечно же)*/
 let arrayToTr = ['name', 'John', 'lastname', 'Black', 'age', '23']
 let objecToTr = {}
+for (let i = 0; i < arrayToTr.length; i += 2) {
+    let key = arrayToTr[i]
+    let value = arrayToTr[i + 1]
+    objecToTr[key] = value
+}
+console.log(objecToTr)
 
 
 /*Дан список с разными типами данных, Например : [null, 123, undefined, null, "qwerty", 34, 65, undefined, null, null, 43, "aerg", "пкцйк», null, ‘uioo’]. 
 Вам надо одинаковые типы данных объединить в отдельный массив. То есть в конечном результате у вас будет несколько массивов c одинаковыми типами данных внутри. 
 После отсортируйте массивы от меньшего к большему, то есть на первом месте будет массив с наименьшим количеством данных внутри.*/
 var arrayOfMix = [null, 123, undefined, null, 'qwerty', 34, 65, undefined, null, null, 43, 'aerg', 'пкцйк', null, 'uioo']
-
 var arrayOfStr = [];
 var arrayNum = [];
 var arrayObg = [];
 var arrayUndF = [];
+
 
 for (i = 0; i < arrayOfMix.length; i++) {
     if (typeof arrayOfMix[i] === 'string') {
@@ -47,11 +53,12 @@ for (i = 0; i < arrayOfMix.length; i++) {
         arrayUndF.push(arrayOfMix[i])
     }
 }
+const sortedArrays = [arrayOfStr, arrayNum, arrayObg, arrayUndF].sort(function (a, b) {
+    return a.length - b.length
+})
+console.log(sortedArrays)
 
-console.log(arrayUndF)
-console.log(arrayNum)
-console.log(arrayOfStr)
-console.log(arrayObg)
+
 
 
 
