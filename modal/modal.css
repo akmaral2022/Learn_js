@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1973b7;
+}
+
+.wrapper {
+    margin: 20px auto;
+    width: 1240px;
+    height: 100vh;
+}
+
+.conteiner {}
+
+.btn {
+    padding: 10px;
+    border-style: 2px solid;
+    background: #0a4f84;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.modal {
+    display: none;
+    padding: 30px;
+}
+
+.modal__show {
+    display: block;
+}
+
+.modal__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    background: #57a5bf;
+}
+
+.title {}
+
+.input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    padding: 15px;
+    border: 2px solid #0a5570;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.gmail {}
+
+.password {}
+
+.puch {}
+
+.click {}
